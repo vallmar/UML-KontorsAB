@@ -16,5 +16,15 @@ namespace MarkusUserStorys
         {
             InitializeComponent();
         }
+
+        private void picturBox_Click(object sender, EventArgs e)
+        {
+            picturBox.BackgroundImage = imageListUserStorys.Images[0];
+        }
+
+        private void UserStoryMain_Load(object sender, EventArgs e)
+        {
+            picturBox.BackgroundImage = imageListUserStorys.Images[0];
+        }
     }
 }
