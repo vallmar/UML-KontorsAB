@@ -12,7 +12,6 @@ namespace MarkusUserStorys
 {
     public partial class UserStoryMain : Form
     {
-        int selecteIndexImage;
         public UserStoryMain()
         {
             InitializeComponent();
