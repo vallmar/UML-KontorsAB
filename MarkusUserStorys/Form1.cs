@@ -12,19 +12,26 @@ namespace MarkusUserStorys
 {
     public partial class UserStoryMain : Form
     {
+        int selecteIndexImage;
         public UserStoryMain()
         {
             InitializeComponent();
         }
 
-        private void picturBox_Click(object sender, EventArgs e)
-        {
-            picturBox.BackgroundImage = imageListUserStorys.Images[0];
-        }
-
         private void UserStoryMain_Load(object sender, EventArgs e)
         {
-            picturBox.BackgroundImage = imageListUserStorys.Images[0];
+            picturBox.BackgroundImage = Image.FromFile(@"C:\Users\Administrator\Documents\Visual Studio 2015\Projects\UML KontorsAB\MarkusUserStorys\ADMINUSER.png");
+            selecteIndexImage = 0;
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            picturBox.BackgroundImage = Image.FromFile(@"C:\Users\Administrator\Documents\Visual Studio 2015\Projects\UML KontorsAB\MarkusUserStorys\ADMINUSER.png");
+        }
+
+        private void btnForward_Click(object sender, EventArgs e)
+        {
+            picturBox.BackgroundImage = Image.FromFile(@"C:\Users\Administrator\Documents\Visual Studio 2015\Projects\UML KontorsAB\MarkusUserStorys\USERUSERSTORY.png");
         }
     }
 }
