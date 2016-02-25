@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminDesktop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDesktop.Designer.cs">
+      <DependentUpon>AdminDesktop.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,27 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserDesktop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserDesktop.Designer.cs">
+      <DependentUpon>UserDesktop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserMobile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserMobile.Designer.cs">
+      <DependentUpon>UserMobile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wireframes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wireframes.Designer.cs">
+      <DependentUpon>Wireframes.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminDesktop.resx">
+      <DependentUpon>AdminDesktop.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -66,6 +93,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UserDesktop.resx">
+      <DependentUpon>UserDesktop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserMobile.resx">
+      <DependentUpon>UserMobile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wireframes.resx">
+      <DependentUpon>Wireframes.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

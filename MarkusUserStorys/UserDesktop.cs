@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace MarkusUserStorys
 {
-    public partial class UserStoryMain : Form
+    public partial class UserDesktop : Form
     {
-        public UserStoryMain()
+        public UserDesktop()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Wireframes openWireframes = new Wireframes();
-            openWireframes.ShowDialog();
         }
     }
 }
