@@ -90,6 +90,22 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="DatabaseDesign.jpg" />
+    <Content Include="images\1-TKEu9GOFOD.jpg" />
+    <Content Include="images\10-TKEu9GOFOD.jpg" />
+    <Content Include="images\11-TKEu9GOFOD.jpg" />
+    <Content Include="images\12-TKEu9GOFOD.jpg" />
+    <Content Include="images\13-TKEu9GOFOD.jpg" />
+    <Content Include="images\14-TKEu9GOFOD.jpg" />
+    <Content Include="images\15-TKEu9GOFOD.jpg" />
+    <Content Include="images\2-TKEu9GOFOD.jpg" />
+    <Content Include="images\3-TKEu9GOFOD.jpg" />
+    <Content Include="images\4-TKEu9GOFOD.jpg" />
+    <Content Include="images\5-TKEu9GOFOD.jpg" />
+    <Content Include="images\6-TKEu9GOFOD.jpg" />
+    <Content Include="images\7-TKEu9GOFOD.jpg" />
+    <Content Include="images\8-TKEu9GOFOD.jpg" />
+    <Content Include="images\9-TKEu9GOFOD.jpg" />
+    <Content Include="images\UML.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

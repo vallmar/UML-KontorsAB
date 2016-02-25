@@ -214,11 +214,6 @@
         </ownedAttributesInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="dd591b9b-76ef-44a3-84d2-8580a71bba90" name="Class1" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="600d8ee8-ac69-45e5-bc09-43aa448b7d9f" />
-      </class>
-    </logicalClassDesignerModelHasTypes>
   </packagedElements>
   <package Id="217f1394-8673-4ced-b0de-df40b5b9f71b" name="UML KontorsAB">
     <elementDefinition Id="888cccd7-41ab-456f-8ac7-275002e6efd4" />
