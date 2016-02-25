@@ -118,5 +118,12 @@
         <classShapeMoniker Id="d77a4d34-4737-4e02-9332-21ed5b11edbc" />
       </nodes>
     </generalizationConnector>
+    <classShape Id="af98dd39-f59e-4c69-9c6a-fc2f4b7184ad" absoluteBounds="11.125, 4, 1.5, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="dd591b9b-76ef-44a3-84d2-8580a71bba90" LastKnownName="Class1" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="d3c2f18f-5c7c-42f2-ac9b-e96fef69fa6f" absoluteBounds="11.14, 4.39, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="ff135f22-23dd-4228-9d18-ed09d84c087f" absoluteBounds="11.14, 4.60117186754942, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
   </nestedChildShapes>
 </logicalClassDesignerDiagram>
