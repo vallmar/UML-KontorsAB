@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "UML KontorsAB", "UML KontorsAB\UML KontorsAB.modelproj", "{186295D5-DAE1-4CA0-A2B4-BA8811F64976}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkusUserStorys", "MarkusUserStorys\MarkusUserStorys.csproj", "{296D15A0-5D8D-4383-8CBB-809975BD3357}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "MarkusUserStorys\Presentation.csproj", "{296D15A0-5D8D-4383-8CBB-809975BD3357}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
