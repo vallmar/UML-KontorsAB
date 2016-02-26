@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminDesktop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDesktop.Designer.cs">
+      <DependentUpon>AdminDesktop.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,12 +60,27 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UMLEML.cs">
+    <Compile Include="UserDesktop.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UMLEML.Designer.cs">
-      <DependentUpon>UMLEML.cs</DependentUpon>
+    <Compile Include="UserDesktop.Designer.cs">
+      <DependentUpon>UserDesktop.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserMobile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserMobile.Designer.cs">
+      <DependentUpon>UserMobile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wireframes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wireframes.Designer.cs">
+      <DependentUpon>Wireframes.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminDesktop.resx">
+      <DependentUpon>AdminDesktop.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -72,8 +93,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UMLEML.resx">
-      <DependentUpon>UMLEML.cs</DependentUpon>
+    <EmbeddedResource Include="UserDesktop.resx">
+      <DependentUpon>UserDesktop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserMobile.resx">
+      <DependentUpon>UserMobile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wireframes.resx">
+      <DependentUpon>Wireframes.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -90,22 +117,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="DatabaseDesign.jpg" />
-    <Content Include="images\1-TKEu9GOFOD.jpg" />
-    <Content Include="images\10-TKEu9GOFOD.jpg" />
-    <Content Include="images\11-TKEu9GOFOD.jpg" />
-    <Content Include="images\12-TKEu9GOFOD.jpg" />
-    <Content Include="images\13-TKEu9GOFOD.jpg" />
-    <Content Include="images\14-TKEu9GOFOD.jpg" />
-    <Content Include="images\15-TKEu9GOFOD.jpg" />
-    <Content Include="images\2-TKEu9GOFOD.jpg" />
-    <Content Include="images\3-TKEu9GOFOD.jpg" />
-    <Content Include="images\4-TKEu9GOFOD.jpg" />
-    <Content Include="images\5-TKEu9GOFOD.jpg" />
-    <Content Include="images\6-TKEu9GOFOD.jpg" />
-    <Content Include="images\7-TKEu9GOFOD.jpg" />
-    <Content Include="images\8-TKEu9GOFOD.jpg" />
-    <Content Include="images\9-TKEu9GOFOD.jpg" />
-    <Content Include="images\UML.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
