@@ -60,6 +60,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UMLEML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UMLEML.Designer.cs">
+      <DependentUpon>UMLEML.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserDesktop.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UMLEML.resx">
+      <DependentUpon>UMLEML.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserDesktop.resx">
       <DependentUpon>UserDesktop.cs</DependentUpon>
     </EmbeddedResource>
