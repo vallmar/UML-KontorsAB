@@ -16,8 +16,7 @@ namespace MarkusUserStorys
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new UMLEML());
-           
+            Application.Run(new UserStoryMain());
         }
     }
 }
